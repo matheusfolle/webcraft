@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #F4E9CD;
+    --bg-card: white; 
+    --title: #253D5B ;
+    --paragraph: #2F2F23;
+}
+
+body {
+    background-color: var(--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+h1 {
+    font: normal 700 1.25rem 'Poppins', sans-serif;
+    color: var(--title);
+}
+
+p { 
+    font: italic 400 0.975rem 'Poppins', sans-serif;
+    color: var(--paragraph);
+}
+
+.card {
+    background-color: var(--bg-card);
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 320px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.my-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
