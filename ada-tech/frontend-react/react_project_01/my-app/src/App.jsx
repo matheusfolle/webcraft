@@ -2,6 +2,7 @@ import React from "react";
 
 import Navbar from "./components/Navbar/Navbar";
 import { Article } from "./components/Article/Article";
+import { Counter } from "./components/Counter/Counter";
 
 import "./styles/app.css";
 
